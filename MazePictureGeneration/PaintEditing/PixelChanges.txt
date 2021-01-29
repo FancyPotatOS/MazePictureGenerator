@@ -1,0 +1,13 @@
+Up Right -> [22 -12]
+Down Right -> [21 13]
+Stair Up Left -> [-44 -77]
+
+Derived:
+Down Left -> [-22 12]
+Up Left -> [-21 -13]
+
+Stair Up Right -> [42 -75]
+   = SUL + 2*UR + 2*DR
+   = [-44 -77] + 2[22 -12] + 2[21 13]
+   = [-44 -77] + [44 -24] + [42 26]
+   = [42 -75]
